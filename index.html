@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
 </head>
+
 <body>
-    <script id="whatsAppPopupIcon" src="script.js" data-phoneNumber="+919019826284" data-position='3' data-text="Hello How are you"></script>
+    <div class="main">
+        <h1>Create whatsapp popup</h1>
+        <input name="phoneNumber">
+        <select name="position">
+            <option value="0">Left</option>
+            <option value="1">Right</option>
+        </select>
+        <input name="text">
+        <button id="createPopup">Create Popup</button>
+        <textarea>
+        </textarea>
+    </div>
+        <script src="createPopup.js"></script>
+    <script id="whatsAppPopupIcon" src="https://niranjan.social/whatsapp-popup/script.js"
+            data-phoneNumber="+919019826284" data-position='3' data-text="Hello How are you"></script>
 </body>
+
 </html>

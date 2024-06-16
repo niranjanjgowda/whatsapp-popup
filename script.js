@@ -6,7 +6,7 @@ body.onload = () => {
     let link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://asset.cloudinary.com/def3l7pcw/5ea00f0c8a8b1065e754c89b8337f713';
+    link.href = 'https://niranjan.social/whatsapp-popup/style.css';
     document.getElementsByTagName('HEAD')[0].appendChild(link);
 
     // get information from script tag
